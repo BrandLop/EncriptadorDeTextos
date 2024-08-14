@@ -118,3 +118,40 @@ small {
         width: 100%;
     }
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 15px 30px; /* Aumentamos el tamaño del botón */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px; /* Aumentamos el tamaño de la fuente */
+}
+
+#encrypt-btn {
+    background-color: #1f3c75;
+    color: #ffffff;
+}
+
+#decrypt-btn {
+    background-color: #e0e3ea;
+    color: #1f3c75;
+}
+
+small {
+    color: #888888;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+small i {
+    margin-right: 5px;
+    color: #f39c12;
+}
